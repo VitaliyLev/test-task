@@ -23,7 +23,6 @@ const Cart = () => {
           <h2>Your Cart</h2>
           <h4>Total: {Number(totalSum.toFixed(1))}$</h4>
         </Wraper>
-
         {items.length === 0 ? (
           <p>Your cart is empty</p>
         ) : (

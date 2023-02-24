@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const makeupApi = axios.create({
-  baseURL: 'https://makeup-api.herokuapp.com/api/v1',
+  // baseURL: 'https://makeup-api.herokuapp.com/api/v1',
+  baseURL: '/api/v1',
 });
 
 //get product request width params

@@ -33,6 +33,7 @@
       "react-app/jest"
     ]
   },
+  "proxy": "https://makeup-api.herokuapp.com",
   "browserslist": {
     "production": [
       ">0.2%",
